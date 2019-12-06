@@ -9,7 +9,7 @@
 </head>
 <body id="body">
 <div id="login-box" >
-<form action="connectionphp/insertdata.php" method="post">
+<form action="login.php" method="post">
     <div class="left">
       <h1>Sign up</h1>
       

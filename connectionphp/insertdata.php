@@ -16,11 +16,11 @@ if(isset($_POST['signup_submit'])){
  //melakukan query dengan perintah INSERT INTO untuk memasukkan data ke database
  $input = mysqli_query($conn,"INSERT INTO username VALUES('','$email', '$pass', '$username')");
  
- //jika query input sukses
+//  jika query input sukses
 //  if($input){
   
 //   echo 'Data berhasil di tambahkan! ';  //Pesan jika proses tambah sukses
-//   echo '<a href="tambah.php">Kembali</a>'; //membuat Link untuk kembali ke halaman tambah
+  echo '<a href="login.html">Kembali</a>'; //membuat Link untuk kembali ke halaman tambah
   
 //  }else{
   
