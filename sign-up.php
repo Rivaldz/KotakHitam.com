@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="css/sign-up.css">
 </head>
 <body id="body">
-<div id="login-box">
+<div id="login-box" >
+<form action="connectionphp/insertdata.php" method="post">
     <div class="left">
       <h1>Sign up</h1>
       
@@ -29,5 +30,6 @@
     </div>
     <div class="or">OR</div>
   </div>   
+</form>
 </body>
 </html>
