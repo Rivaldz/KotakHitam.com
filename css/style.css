@@ -40,6 +40,11 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.colorTitle{
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
